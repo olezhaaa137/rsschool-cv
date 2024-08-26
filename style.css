@@ -1,0 +1,24 @@
+main {
+    width: 595px;
+    height: 842px;
+    border: 1px solid black;
+    margin: auto;
+    font-family: 'Roboto';
+}
+
+aside {
+    width: 188px;
+    height: 842px;
+    background-color: rgba(20, 83, 73, 1);
+    float: left;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+}
+
+#avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 250px;
+}
