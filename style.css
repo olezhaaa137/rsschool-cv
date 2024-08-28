@@ -4,21 +4,56 @@ main {
     border: 1px solid black;
     margin: auto;
     font-family: 'Roboto';
+    color: #ffffff;
+    display: flex;
 }
 
 aside {
     width: 188px;
     height: 842px;
-    background-color: rgba(20, 83, 73, 1);
-    float: left;
+    background-color: #145349;
     display: flex;
     flex-direction: column;
-    /*justify-content: space-around;*/
-    align-items: center;
+    justify-content: space-around;
+    
 }
 
 #avatar {
     width: 56px;
     height: 56px;
     border-radius: 250px;
+}
+
+.headerText {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.greyText {
+    color: rgba(255, 255, 255, 0.7); 
+    font-size: 10px;
+}
+
+.smallHeaderText {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.blackHeaderText {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+article {
+    width: 407px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+}
+
+.blackGreyText {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 10px;
 }
