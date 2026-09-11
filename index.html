@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oleg Buiko. CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=677px, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+    <title>cv</title>
 </head>
 <body>
-  <h1>Oleg Buiko. CV</h1>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__image-side"><img src="./images/avatar.png" alt="profile photo"></div>
+            <div class="header__content-side">
+                <h2 class="header__subtitle">frontend-developer</h2>
+                <h1 class="header__fio">Oleg Byiko</h1>
+                <ul class="header__contacts">
+                    <li class="header__contacts-elem">+375 (44) 111-11-11</li>
+                    <li class="header__contacts-elem">oleshkabyiko&commat;gmail.com</li>
+                    <li class="header__contacts-elem">t.me/oleggggg</li>
+                    <li class="header__contacts-elem">linkedin: oleg-buiko-0b995b290</li>
+                    <li class="header__contacts-elem">gihub: olezhaaa137</li>
+                </ul>
+            </div>
+        </header>
+        <section class="profile">
+            <h2 class="profile__title title">Profile</h2>
+            <p class="profile__text">Software Engineer with 1 year of experience in a state enterprise (Belarusian Railway). During my mandatory post-graduation work assignment, I successfully adapted to a large-scale internal infrastructure and corporate regulations. I possess solid foundational knowledge in JavaScript, C++, and SAP, with experience in supporting legacy code and developing new modules. I learn new technologies quickly and independently, and I approach deadlines and technical documentation with a strong sense of responsibility. Currently seeking a Software Engineer (Developer) position in a dynamic team where I can apply my skills and grow professionally.</p>
+        </section>
+        <section class="projects">
+            <h2 class="projects__title title">Projects</h2>
+            <nav class="projects__menu">
+                <ul class="projects__menu-items">
+                    <li class="projects__item">
+                        <div class="projects__item-subtitle list-item__subtitle"><a href="https://github.com/olezhaaa137/museum">Museum</a></div>
+                        <div class="projects__item-text list-item__text">Landing page to Luvre museum</div>
+                    </li>
+                    <li class="projects__item">
+                        <div class="projects__item-subtitle list-item__subtitle"><a href="https://github.com/olezhaaa137/Realty">Realty</a></div>
+                        <div class="projects__item-text list-item__text">Site, where you can find a beautiful house or flat and get acquainted with leasing propositions to it.</div>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <main class="main">
+            <div class="main__experience-side">
+                <section class="main__education education">
+                    <h2 class="education__title title">Education</h2>
+                    <ul class="education__list">
+                        <li class="education__list-item list-item">
+                            <div class="education__subtitle list-item__subtitle"><span>2020-2024</span>BSUIR</div>
+                            <div class="education__list-item-text list-item__text">Bachelor of Faculty of Engineering and Economics</div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="main__employment employment">
+                    <h2 class="employment__title title">Employment</h2>
+                    <ul class="employment__list">
+                        <li class="employment__list-item list-item">
+                            <div class="employment__subtitle list-item__subtitle"><span>2024-now</span>Belarusian Railway</div>
+                            <div class="employment__list-item-text list-item__text">programmer/SAP Developer</div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="main__code-example code-example">
+                    <h2 class="code-example__title title">Code Example</h2>
+                    <pre class="code-example__text">
+                        <code>
+public class Kata
+    {
+        public static int opposite(int number)
+        {
+            // your code here
+          return number * -1;
+        }
+    }
+                        </code>
+                    </pre>
+                </section>
+            </div>
+            <div class="main__skills-side">
+                <section class="main__skills skills">
+                    <h2 class="skills__title title">Skills</h2>
+                    <ul class="skills__list">
+                        <li class="skills__item">HTML5/CSS</li>
+                        <li class="skills__item">JavaScript</li>
+                        <li class="skills__item">TypeScript</li>
+                        <li class="skills__item">Angular</li>
+                        <li class="skills__item">Git,GitHub</li>
+                        <li class="skills__item">Networking</li>
+                    </ul>
+                </section>
+                <section class="main__languages languages">
+                    <h2 class="languages__title title">Languages</h2>
+                    <ul class="languages__list">
+                        <li class="languages__item">English <span>B2</span></li>
+                        <li class="languages__item">Belarusian <span>native</span></li>
+                        <li class="languages__item">Russian <span>C1</span></li>
+                    </ul>
+                </section>
+                
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__my-github-block"><a href="https://github.com/olezhaaa137" target="_blank">Visit my github</a></div>
+            <p class="footer__year-of-creation">&copy;2026</p>
+            <div class="footer__rs-link"><a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><img src="./images/rs-school-logo.svg" alt=""></a></div>
+        </footer>
+    </div>
 </body>
 </html>
